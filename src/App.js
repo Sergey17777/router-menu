@@ -12,10 +12,10 @@ export default function App() {
         <Menu />
         <div className="page">
           <Routes>
-            <Route path="/ra-9.1-router-menu/" element={<HomePage />} />
-            <Route path="/ra-9.1-router-menu/drift" element={<DriftPage />} />
-            <Route path="/ra-9.1-router-menu/timeattack" element={<TimeAttackPage />} />
-            <Route path="/ra-9.1-router-menu/forza" element={<ForzaPage />} />
+            <Route path="/router-menu/" element={<HomePage />} />
+            <Route path="/router-menu/drift" element={<DriftPage />} />
+            <Route path="/router-menu/timeattack" element={<TimeAttackPage />} />
+            <Route path="/router-menu/forza" element={<ForzaPage />} />
           </Routes>
         </div>
       </div>
